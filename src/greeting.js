@@ -7,5 +7,5 @@
 function main(params) {
     var name = params.name || params.payload || 'stranger';
     var place = params.place || 'i/o insights';
-    return {payload:  'こんにちは、 ' + name + ' from ' + place + ' !'};
+    return {payload:  'こんにちは、 ' + place + ' からきた ' + name + 'さん!'};
 }
